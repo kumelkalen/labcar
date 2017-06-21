@@ -54,6 +54,7 @@
 	border: none;
 	font-size: 20px;
 }
+
 /***** Second Section *****/
 #informacion{
 	background-color: #f7b617;
@@ -83,7 +84,14 @@
 .col-height{
 	height: 350px;
 }
-
+/* Cambiamos el tamaño del texto */
 .col-height p{
 	font-size: 20px;
+}
+
+/***** Third Section *****/
+#conduce{
+	background-image: url(../img/conduce.jpg);
+	background-size: cover;
+	height: 500px;
 }
