@@ -1,4 +1,17 @@
-@media(min-width: 450px) {
+/*@media(min-width: 450px) {
 	.navbar-header {
     float: right;
+}
+*/
+
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+
+#hero{
+	background-image: url(../img/taxi.jpg);
+	background-size: cover;
+	background-position: bottom;
+	height: 700px;
 }
