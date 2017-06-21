@@ -114,6 +114,10 @@
 
 .cont-transparente .col-md-4{
 	padding: 80px 40px;
-	
+}
 
+/***** Fourth Section *****/
+#tarifas{
+	background-color: #f7b617;
+	height: 500px;
 }
