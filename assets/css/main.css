@@ -7,6 +7,7 @@
 *{
 	padding: 0;
 	margin: 0 auto;
+	color: white;
 }
 
 /***** First Section ******/
@@ -93,5 +94,26 @@
 #conduce{
 	background-image: url(../img/conduce.jpg);
 	background-size: cover;
-	height: 500px;
+	background-position: center;
+	height: 400px;
+}
+/* Div contenedor */
+.cont-transparente{
+	height: 100%;
+}
+/* Div trasparente */
+.trasparente{
+	height: 100%;
+	background-color: rgba(0,0,0,0.5); 
+	padding: 80px 0 ;
+}
+.trasparente button{
+	border: none;
+	font-size: 20px;
+}
+
+.cont-transparente .col-md-4{
+	padding: 80px 40px;
+	
+
 }
