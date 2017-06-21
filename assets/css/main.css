@@ -57,5 +57,29 @@
 /***** Second Section *****/
 #informacion{
 	background-color: #f7b617;
-	height: 500px;
+	height: 100%;
+}
+/* Cambiamos medidas por defecto*/
+#informacion .container-fluid{
+	padding: 0;
+}
+
+.info-row{
+	margin: 40px 0;
+
+}
+/* Margen en columna */
+.margin-white{
+	border-top: 1px solid white; 
+	border-bottom: 1px solid white; 
+	border-right: 1px solid white;
+	padding: 40px ; 
+}
+/* Aplicamos alturas a la columna interna */
+.margin-white img{
+	height: 100%;
+}
+
+.col-height{
+	height: 350px;
 }
