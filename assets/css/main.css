@@ -13,5 +13,14 @@
 	background-image: url(../img/taxi.jpg);
 	background-size: cover;
 	background-position: bottom;
-	height: 700px;
+	height: 800px;
+}
+
+.row-viaja{
+	margin-top: 150px;
+}
+
+.cont-viaja{
+	background-color: #f7b617;
+	height: 400px;
 }
