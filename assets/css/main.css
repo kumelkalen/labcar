@@ -54,3 +54,8 @@
 	border: none;
 	font-size: 20px;
 }
+/***** Second Section *****/
+#informacion{
+	background-color: #f7b617;
+	height: 500px;
+}
