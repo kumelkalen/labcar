@@ -68,7 +68,16 @@
 }
 
 .cont-viaja h3{
-	margin-top: 10px;
+	margin: 10px 0;
+}
+
+.cont-viaja img{
+	width: 40%;
+}
+.cont-viaja a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
 }
 /* Div contenedor para display flex */
 .flex-container{
@@ -77,17 +86,22 @@
 	display:flex;
 	align-items: center;
 	justify-content: flex-start;
+	padding-bottom: 10px ;
 }
 /* Div para crear línea */
 .linea{
 	border-bottom: 1px solid white;
 	height: 10px;
 }
+.cont-linea{
+	padding-top: 40px ;
+}
 
 /* Button Conductor */
 .cont-viaja button{
 	border: none;
 	font-size: 20px;
+	margin-top: 40px;
 }
 
 /***** Second Section *****/
