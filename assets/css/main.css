@@ -156,3 +156,13 @@
 	border: 1px solid white;
 }
 
+/***** Fifth Section *****/
+#footer{
+	background-color: #2b2b2b;
+	height: 600px;
+}
+
+.cont-logo{
+	border-bottom: 1px solid white;
+}
+
