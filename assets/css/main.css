@@ -272,6 +272,8 @@
 	width: 180px;
 	margin-left: 100px;
 }
+/* Movile version */
+
 
 /***** Fifth Section *****/
 #footer{
@@ -331,5 +333,11 @@
 	height: 350px;
 	padding-top: 200px;
 	flex-direction: column;
+}
+
+@media screen,handheld and (max-width: 450px) {
+	.first-a {
+		width: 0;
+	}
 }
 
