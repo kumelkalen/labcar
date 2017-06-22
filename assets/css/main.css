@@ -145,5 +145,14 @@
 }
 
 #map{
-	height: 500px;
+	height: 400px;
+	width:450px;
+	margin-top: 10px;
 }
+
+.cont-mapa{
+	height: 420px;
+	width: 470px;
+	border: 1px solid white;
+}
+
