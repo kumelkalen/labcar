@@ -168,6 +168,24 @@
 	font-size: 20px;
 }
 
+@media screen,handheld and (max-width: 450px) {
+	#informacion{
+		height: 450px;
+	}
+	.margin-white{
+		border:1px solid white;
+		margin-bottom: 25px;
+	}
+	.col-height {
+		height: 200px;
+		margin-bottom: 40px;
+	}
+	.rapido-h4{
+		padding-left: 45px;
+	}
+
+}
+
 /***** Third Section *****/
 #conduce{
 	background-image: url(../img/conduce.jpg);
