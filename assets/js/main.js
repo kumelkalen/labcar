@@ -1,10 +1,3 @@
-document.getElementById("partida").addEventListener("click",borrar);
-document.getElementById("destino").addEventListener("click",borrar);
-function borrar(){
-	document.getElementById("partida").value="";
-	document.getElementById("destino").value="";
-}
-
 function initMap(){
 
 	var directionsService = new google.maps.DirectionsService;
@@ -23,6 +16,21 @@ function initMap(){
         var llegada = (document.getElementById('destino')); 
         var autocompletar = new google.maps.places.Autocomplete(llegada);
         autocompletar.bindTo('bounds', map);
+    //Dibujar ruta 
+   		document.getElementById("ruta").addEventListener("click", function(){
+        calculateAndDisplayRoute(directionsService, directionsDisplay);
+       });      
+       function calculateAndDisplayRoute(directionsService, directionsDisplay) {//toma los datos de ambos input y los busca
+       directionsService.route({
+         origin: document.getElementById('partida').value,
+         destination: document.getElementById('destino').value,
+         travelMode: 'DRIVING'
+       }, function(response, status) {
+         if (status === 'OK') {
+           directionsDisplay.setDirections(response);
+         } else {
+           window.alert('Directions request failed due to ' + status);
+         }
+       });
+     }
 }
-
-	
