@@ -76,8 +76,8 @@
 				<h2>Conduce cuando quieras</h2>
 				<h4>LabCar es una opción flexible para alcanzar tus metas financieras.</h4>
 				<button type="button" class="btn btn-warning">Conviértete en conductor</button>
-			</div>
-		</div>
+			</div><!-- Cierre columna -->
+		</div><!--  Cierre row -->
 	</section>
 	<!-- Fourth Section -->
 	<section id="tarifas" class="container-fluid">
@@ -93,11 +93,14 @@
 					<img src="assets/img/flecha.png" alt="Ícono flecha">
 					<input id="destino" type="text" value="Ingrese un destino" autocomplete="street-address">
 				</div>
-			</div>
-			<div class="col-md-6"></div>
-		</div>
+			</div><!-- Cierre primera columna -->
+			<div class="col-md-6" id="map">
+				<!-- Lugar del mapa -->
+			</div><!-- Cierre segunda columna -->
+		</div><!-- Cierre row -->
 	</section>
 <!-- Enlaces js -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBz09faEwEnVX_nbMiABHauLZYIGs3MOsU&callback=initMap&libraries=places" type="text/javascript"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script> 
