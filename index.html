@@ -36,19 +36,22 @@
 	<!-- First Section -->
 	<section id=hero class="container-fluid">
 		<div class="row row-viaja">
-			<div class="col-md-5 col-md-offset-7 cont-viaja">
-				<h1>Disfruta del viaje<br/>Eres dueño de tu tiempo</h1>
+			<div class="col-md-5 col-md-offset-7 col-xs-8 col-xs-offset-4 cont-viaja">
+				<h1 class="hidden-xs">Disfruta del viaje<br/>Eres dueño de tu tiempo</h1>
+				<h2 class="visible-xs">Comienza a</h2>
+				<h3 class="visible-xs">Viajar con</h3>
 					<div class="flex-container">
-						<h3>Viaja con</h3>
+						<h3 class="hidden-xs">Viaja con</h3>
 						<img src="assets/img/logo-blanco.png" alt="Logo Blanco">
 					</div>
-				<a href="#">REGÍSTRATE</a>
-				<div class="row cont-linea">
+				<a class="hidden-xs" href="#">REGÍSTRATE</a>
+				<div class="row cont-linea hidden-xs">
 					<div class="col-md-3 col-md-offset-1 linea"></div>
 					<div class="col-md-3 col-md-offset-1 text-center">O bien</div>
 					<div class="col-md-3 col-md-offset-1 linea"></div>
 				</div><!-- Cierre row linea -->
-				<button type="button" class="btn btn-default">Conviértete en conductor</button>
+				<button type="button" class="visible-xs">Descarga la app</button>
+				<button type="button" class="btn btn-default hidden-xs">Conviértete en conductor</button>
 			</div><!-- Cierre columna -->
 		</div><!-- Cierre row -->
 	</section>
@@ -91,7 +94,7 @@
 				</div>
 				<div class="flex">
 					<img src="assets/img/flecha.png" alt="Ícono flecha">
-					<input id="destino" type="text"  autocomplete="street-address">
+					<input id="destino" type="text" autocomplete="street-address">
 				</div>
 				<input id="ruta" type="button" value="¡Trazar Ruta!">
 			</div><!-- Cierre primera columna -->

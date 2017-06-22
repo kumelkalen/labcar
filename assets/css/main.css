@@ -113,7 +113,27 @@
 }
 
 /* Movile edition */
-
+@media screen,handheld and (max-width: 450px) {
+	#hero{
+		height: 500px;
+	}
+	.cont-viaja{
+		height: 250px;
+		padding-top: 20px;
+	}
+	.cont-viaja img{
+	margin-left:0;
+	}
+	.cont-viaja button{
+	border-radius: 3px;
+	color: black;
+	background-color: white;
+	font-size: 18px;
+	margin-top: 25px;
+	padding: 5px;
+	}
+	 
+}
 /***** Second Section *****/
 #informacion{
 	background-color: #f7b617;
