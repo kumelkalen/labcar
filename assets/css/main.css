@@ -10,6 +10,40 @@
 	color: white;
 }
 
+/***** NavBar *****/
+.navbar-default {
+    background-color: white;
+    border: none;
+}
+
+.navbar{
+	margin: 0;
+}
+/* Alto del menú*/
+.menu{
+	height: 100px;
+}
+/* Padding logo */
+.navbar-brand{
+	padding: 40px 150px;
+}
+/* Tamaño logo */
+.navbar-header img{
+	width: 100px;
+}
+/* Elementos del ul*/
+.navbar-nav{
+	float: right;
+	padding: 20px 100px
+}
+.navbar-nav>li {
+    padding: 0 20px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	font-size: 18px;
+	color: #2b2b2b;
+}
 /***** First Section ******/
 #hero{
 	background-image: url(../img/taxi.jpg);
@@ -107,6 +141,7 @@
 	background-color: rgba(0,0,0,0.5); 
 	padding: 80px 0 ;
 }
+/* Botón Conductor*/
 .trasparente button{
 	border: none;
 	font-size: 20px;
